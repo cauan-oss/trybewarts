@@ -1,4 +1,18 @@
 header {
     display: flex;
+    justify-content: space-between;
+    align-items: center;
     background-color: rgb(50, 167, 145)
+}
+
+button {
+   
+    background-color: darkslateblue;
+    font-size: medium "white";
+    color: aliceblue;
+
+}
+
+#trybewarts-header-title {
+    color: aliceblue;
 }
