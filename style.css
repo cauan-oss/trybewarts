@@ -2,7 +2,13 @@ header {
     display: flex;
     justify-content: space-between;
     align-items: center;
-    background-color: rgb(50, 167, 145)
+    background-color: rgb(50, 167, 145);
+    height: 130px;
+    margin-top: 0;
+}
+
+img {
+    height: 100%;
 }
 
 button {
@@ -10,9 +16,14 @@ button {
     background-color: darkslateblue;
     font-size: medium "white";
     color: aliceblue;
-
+    margin-right: 30px;
 }
 
 #trybewarts-header-title {
     color: aliceblue;
+}
+
+#email {
+    margin-left: 125px;
+    padding: 80px;
 }
