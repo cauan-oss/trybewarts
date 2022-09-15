@@ -10,13 +10,63 @@
 <body>
     <header>
         <img class="trybewarts-header-logo" src="./images/./trybewarts-header-logo.svg">
-    </header>
-    <main>
-        <form action=""></form>
-    </main>
-    <footer>
         
-    </footer>
+        <img src="./images/./trybewarts-header-logo.svg" alt="">
+
+        <h1 id="trybewarts-header-title">Trybewarts</h1>
+
+        <div>
+            <label for="">
+                <input type="text" placeholder="Email">
+            </label>
+        </div>
+        
+        <div>
+            <label for="">
+                <input type="text" placeholder="Senha">
+            </label>
+        </div>
+        <button>Entrar</button>
+    </header>
+    <main class="flex-container">
+        <form class="flex-container" id="evaluation-form" action="">
+            <h1 id="title-form">Formulário de Avaliação</h1>
+                <div class="flex-container" id="subconteiner-top">
+                    <input type="text" name="firstName"placeholder="Nome" id="input-name">
+                    <input type="text" name="LastName" placeholder="Sobrenome" id="input-lastname">
+                    <input type="email" name="e-mail" placeholder="Email" id="input-email">
+                    <label for="house">Casa: </label>
+                    <select name="house-trybewarts" id="house">
+                        <option value="Gitnória" id="gitnoria-house">Gitnória</option>
+                        <option value="Reactpuff" id="reactpuff-house">Reactpuff</option>
+                        <option value="Corvinode" id="corvinode-house">Corvinode</option>
+                        <option value="Pytherina" id="pytherina-house">Pytherina</option>
+                    </select>
+                </div>
+                <div class="line"></div>
+                <div class="flex-container" id="subconteiner-middle">
+                    <div class="flex-container" id="middle-left">
+                        <label for="" id="label-family">Qual sua família?</label>
+                        <label for="frontend" class="family"><input type="radio" name="family" value="Frontend"  id="frontend">Família Frontend</label>
+                        <label for="backend" class="family"><input type="radio" name="family" value="Backend"  id="backend">Família Backend</label>
+                        <label for="fullstack" class="family"><input type="radio" name="family" value="FullStack"  id="fullstack">Família FullStack</label>
+                    </div>
+                    <div id="middle-right" class="flex-container">
+                        <label for="" id="label-content" class="flex-container">Qual conteúdo você está com mais vontade <br><br> de aprender?</label>
+                        <div id="middle-right-checkboxs" class="flex-container">
+                            <label for="hofs"><input type="checkbox" name="" id="hofs" class="subject" value="HoFs"> Hofs</label>
+                            <label for="jest"><input type="checkbox" name="" id="jest" class="subject" value="Jest"> Jest</label>
+                            <label for="promises"><input type="checkbox" name="" id="promises" class="subject" value="Promises"> Promises</label>
+                            <label for="react"><input type="checkbox" name="" id="react" class="subject" value="React"> React</label>
+                            <label for="sql"><input type="checkbox" name="" id="sql" class="subject" value="SQL"> SQL</label>
+                            <label for="python"><input type="checkbox" name="" id="python" class="subject" value="Python"> Python</label>
+                        </div>
+                    </div>
+                    
+                </div>
+        </form>
+        <img src="images/trybewarts-colored.svg" alt="" id="trybewarts-forms-logo" class="flex-container">
+    </main>
     <script src="./script.js"></script>
 </body>
 </html>
