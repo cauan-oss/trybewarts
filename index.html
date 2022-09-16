@@ -29,8 +29,8 @@
         <button>Entrar</button>
     </header>
     <main class="flex-container">
-        <form class="flex-container" id="evaluation-form" action="">
-            <h1 id="title-form">Formulário de Avaliação</h1>
+            <form class="flex-container" id="evaluation-form" action="">
+                <h1 id="title-form">Formulário de Avaliação</h1>
                 <div class="flex-container" id="subcontainer-top">
                     <input type="text" name="firstName"placeholder="Nome" id="input-name">
                     <input type="text" name="LastName" placeholder="Sobrenome" id="input-lastname">
@@ -83,8 +83,12 @@
                         <textarea name="" id="comments" cols="28" rows="5" maxlength="500"></textarea>
                     </div>
                     <span id="countdown">500</span>
+                    <div class="flex-container" id="container-agreement">
+                        <label for="agreement" id="label-infos">Você concorda com o uso das informações acima? <input type="checkbox" id="agreement"></label>
+                    </div>
                 </div>
-        </form>
+                <input type="submit" name="Enviar" id="submit-btn">
+            </form>
         <img src="images/trybewarts-colored.svg" alt="" id="trybewarts-forms-logo" class="flex-container">
     </main>
     <script src="script.js"></script>

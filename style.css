@@ -76,7 +76,7 @@ main {
   flex-wrap: wrap;
   justify-content: space-between;
   align-content: space-between;
-  align-items: stretch;
+  align-items: baseline;
   text-align: left;
 }
 
@@ -86,6 +86,7 @@ main {
 
 #subcontainer-bottom {
   flex-wrap: wrap;
+  margin-bottom: 14px;
 }
 
 #label-rate {
@@ -103,6 +104,28 @@ main {
   height: 100px;
   justify-content: flex-start;
   flex-direction: column;
+}
+
+#container-agreement {
+  width: 100%;
+  align-items: flex-end;
+  justify-content: flex-start;
+}
+
+#submit-btn {
+  background-color: indigo;
+  font-size: inherit;
+  outline: none;
+  border: none;
+  color: white;
+  border-radius: 8px;
+  height: 40px;
+}
+
+#submit-btn:active {
+  color: black;
+  border: 2px dashed indigo;
+  background-color: whitesmoke;
 }
 
 .line {
