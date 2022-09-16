@@ -1,9 +1,9 @@
-const countLetters = document.getElementById('comments');
+const countLetters = document.getElementById('textarea');
 const countDown = document.getElementById('counter');
 const buttonSubmitForms = document.getElementById('submit-btn');
 const checkBoxAgreement = document.getElementById('agreement');
 
-countLetters.addEventListener('keyup', () => {
+countLetters.addEventListener('input', () => {
   const count = countLetters.value.length;
   const maxChar = 500 - count;
   countDown.innerHTML = maxChar;
