@@ -33,16 +33,22 @@ main {
 }
 
 #input-name , #input-lastname , #input-email {
-  width: 331px;
-  height: 35px;
+  width: 321px;
+  height: 25px;
   border: 1px solid whitesmoke;
   border-radius: 8px;
-  margin: 5px 0;
+  margin: 3px 0;
+  padding: 6px;
+}
+
+::placeholder {
+  font-size: initial;
 }
 
 #house {
   width: 294px;
-  height: 30px;
+  height: 37px;
+  font-size: initial;
   background-color: white;
   border: 1px solid whitesmoke;
   border-radius: 5px;
