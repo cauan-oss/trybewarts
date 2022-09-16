@@ -8,22 +8,15 @@
     <title>Trybewarts</title>
 </head>
 <body>
-    <header>
+    <header class="header">
         <div id="container-img-header">
-            <img class="trybewarts-header-logo" src="./images/./trybewarts-header-logo.svg">
+            <img class="trybewarts-header-logo" src="images/trybewarts-header-logo.svg">
         </div>
         <h1 id="trybewarts-header-title">Trybewarts</h1>
-        <form action="">
-            <label for="Email">
-                <input type="text" placeholder="Email">
-            </label>
-
-            <label for="Senha">
-                <input type="text" placeholder="Senha">
-            </label>
-            <label for="button">
-                <button id="button">Entrar</button>
-            </label>
+        <form action="" class="trybewarts-login flex-container">
+                <input type="text" name="email" placeholder="Email" id="email-login">
+                <input type="password" name="password" placeholder="Senha" id="password-login">
+                <button id="button-login">Entrar</button>
         </form>
     </header>
     <main class="flex-container">

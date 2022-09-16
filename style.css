@@ -3,12 +3,12 @@
   font-family: fantasy, Arial, Helvetica, sans-serif;
 }
 
-header {
+.header {
   display: flex;
   justify-content: space-between;
   align-items: center;
   background-color: rgb(50, 167, 145);
-  height: 90px;
+  height: 70px;
   margin-top: 0;
 }
 
@@ -30,11 +30,6 @@ button {
 
 #trybewarts-header-title {
   color: aliceblue;
-}
-
-#email {
-  margin-left: 125px;
-  padding: 80px;
 }
 
 .flex-container {
@@ -155,6 +150,7 @@ main {
   color: white;
   border-radius: 8px;
   height: 40px;
+  width: 100%;
 }
 
 #submit-btn:active {
