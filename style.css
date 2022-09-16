@@ -197,3 +197,12 @@ span {
   height: 500px; /* requisito 7 */
   margin-top: 2%;
 }
+
+#my-footer {
+  text-align: center;
+  color: cornsilk;
+  background-color: rgb(54, 57, 69);
+  margin-top: 190px;
+  padding: 40px;
+  font-size: 25px;
+}
