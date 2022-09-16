@@ -19,13 +19,33 @@
 
 img {
   height: 100%;
+  margin-left: 5px;
 }
 
-button {
-  background-color: darkslateblue;
+.forms-login {
+  height: 100%;
+  margin-right: 12px;
+}
+
+#email-login , #password-login , #button-login {
+  width: 160px;
+  padding: 8px;
+  margin: 0 3px;
+  border-radius: 4px;
+  outline: none;
+  border: none;
+}
+
+#button-login {
+  background-color: indigo;
   font-size: medium;
   color: aliceblue;
-  margin-right: 30px;
+}
+
+#button-login:active {
+  color: black;
+  border: 2px solid indigo;
+  background-color: white;
 }
 
 #trybewarts-header-title {
