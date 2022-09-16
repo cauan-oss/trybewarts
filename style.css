@@ -5,7 +5,36 @@
 
 header {
   display: flex;
+  justify-content: space-between;
+  align-items: center;
   background-color: rgb(50, 167, 145);
+  height: 90px;
+  margin-top: 0;
+}
+
+#container-img-header {
+  display: flex;
+  height: 86%;
+}
+
+img {
+  height: 100%;
+}
+
+button {
+  background-color: darkslateblue;
+  font-size: medium;
+  color: aliceblue;
+  margin-right: 30px;
+}
+
+#trybewarts-header-title {
+  color: aliceblue;
+}
+
+#email {
+  margin-left: 125px;
+  padding: 80px;
 }
 
 .flex-container {
