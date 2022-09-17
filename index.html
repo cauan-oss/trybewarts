@@ -22,6 +22,15 @@
         </form>
     </header>
     <main class="flex-container">
+        <form action="" id="form-data">
+            <label class="data-confirm" for=""><strong>Nome: </strong><span id="name-confirm"></span></label>
+            <label class="data-confirm" for=""><strong>Email: </strong><span id="email-confirm"></span></label>
+            <label class="data-confirm" for=""><strong>Casa: </strong><span id="casa-confirm"></span></label>
+            <label class="data-confirm" for=""><strong>Família: </strong><span id="familia-confirm"></span></label>
+            <label class="data-confirm" for=""><strong>Matérias: </strong><span id="materias-confirm"></span></label>
+            <label class="data-confirm" for=""><strong>Avaliação: </strong><span id="avaliacao-confirm"></span></label>
+            <label class="data-confirm" for=""><strong>Observações: </strong><span id="comments-confirm"></span></label>
+        </form>
             <form class="flex-container" id="evaluation-form" action="">
                 <h1 id="title-form">Formulário de Avaliação</h1>
                 <div class="flex-container" id="subcontainer-top">
@@ -30,10 +39,11 @@
                     <input type="email" name="e-mail" placeholder="Email" id="input-email">
                     <label for="house">Casa: </label>
                     <select name="house-trybewarts" id="house">
-                        <option value="Gitnória" id="gitnoria-house">Gitnória</option>
-                        <option value="Reactpuff" id="reactpuff-house">Reactpuff</option>
-                        <option value="Corvinode" id="corvinode-house">Corvinode</option>
-                        <option value="Pytherina" id="pytherina-house">Pytherina</option>
+                        <option disabled selected></option>
+                        <option class="house-selected" value="Gitnória" id="gitnoria-house">Gitnória</option>
+                        <option class="house-selected" value="Reactpuff" id="reactpuff-house">Reactpuff</option>
+                        <option class="house-selected" value="Corvinode" id="corvinode-house">Corvinode</option>
+                        <option class="house-selected" value="Pytherina" id="pytherina-house">Pytherina</option>
                     </select>
                 </div>
                 <div class="line"></div>

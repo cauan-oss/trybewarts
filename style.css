@@ -203,7 +203,7 @@ textarea:invalid {
   outline-color: red;
 }
 
-span {
+#counter {
   position: relative;
   left: calc(95% + 4px);
   bottom: 20px;
@@ -215,8 +215,9 @@ span {
 }
 
 #my-footer {
+  display: block;
   position: relative;
-  top: 136px;
+  top: 209px;
   color: white;
   background-color: rgb(54, 57, 69);
   padding: 20px;
@@ -225,4 +226,18 @@ span {
 
 #my-footer section {
   text-align: center;
+}
+
+#form-data {
+  display: none;
+  flex-direction: column;
+  width: 20%;
+}
+
+.data-confirm {
+  margin: 12px 0;
+}
+
+.data-confirm span {
+  word-wrap: break-word;
 }
